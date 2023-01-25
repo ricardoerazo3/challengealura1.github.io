@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="contenedor">
+       
+        <div id="area1">
+            <label class="placeholder"id="label_mensaje">texto a encriptar/desencriptar </label>
+       
+            <textarea id="area_mensaje" placeholder=" "></textarea>
+           
+        </div>
+        <div id="area2">
+            <label class="placeholder2" id="label_resultado">resultado </label>
+            <textarea id="resultado" placeholder=" "></textarea>
+            
+        </div>
+
+    </div>
+    <button class="boton1" id="boton1" onclick="accionbotonencriptar()">encriptar</button>
+    <button class="boton2"id="boton2" onclick="accionbotondesencriptar()">desencriptar</button>
+    <button class="boton3" id="boton3" onclick="copiarcontenido()">copiar texto</button>
+</body>
+</html>
+<script src="/index.js"></script>

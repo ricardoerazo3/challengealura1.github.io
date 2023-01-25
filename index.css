@@ -1,0 +1,129 @@
+body {
+    background-color: rgba(68, 90, 179, 0.44);
+}
+
+#contenedor{
+    display: flex;
+    background-color: #bbdefb;
+    height:90%;
+    width: 85%;
+    padding: 10px;
+    gap: 40px;
+	position: absolute;
+  }
+  #label_mensaje,#label_resultado{
+	position: absolute;
+  }
+
+#area_mensaje {
+	margin-top: 50px;
+    width:260px ;
+    height: 450px;
+
+}
+#resultado{
+
+	margin-top: 50px;
+    width:260px ;
+    height: 450px; 
+}
+
+
+.boton1 {
+	box-shadow:inset 0px 0px 4px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:11px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	position: absolute;
+	bottom:50px;
+	margin-left:20px;
+	left:0;
+}
+.boton2 {
+	box-shadow:inset 0px 0px 4px 2px #9ff2cf;
+	background:linear-gradient(to bottom, #78c2be 5%, #5cbf2a 100%);
+	background-color:#78c29d;
+	border-radius:11px;
+	border:1px solid #4e5b96;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	position: absolute;
+	bottom:50px;
+	margin-left:20px;
+	left:175px;
+}
+.boton1:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.boton1:active {
+	position:absolute;
+	
+}
+
+.boton2:hover {
+	background-color:#5cbf2a;
+}
+.boton2:active {
+	position:absolute;
+	
+}
+
+.boton3 {
+	box-shadow:inset 0px 0px 4px 2px #f2dc9f;
+	background:linear-gradient(to bottom, #c2b578 5%, #bfa42a 100%);
+	background-color:#c2ab78;
+	border-radius:11px;
+	border:1px solid #96774e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #663128;
+	position:absolute;
+    bottom:50px;
+	margin-left:20px;
+	left:375px;
+}
+.boton3:hover {
+	background:linear-gradient(to bottom, #9e7b47 5%, #c29978 100%);
+	background-color:#9e7b47;
+}
+.boton3:active {
+	position:absolute;
+	
+}
+
+
+#label_mensaje{
+top:25px;
+left:20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+color:#977e59;
+
+}
+#label_resultado{
+top:25px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: normal;
+color:#977e59;
+}
